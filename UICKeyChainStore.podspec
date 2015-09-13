@@ -17,11 +17,12 @@ Pod::Spec.new do |s|
   s.homepage              = "https://github.com/kishikawakatsumi/UICKeyChainStore"
   s.license               = { :type => "MIT", :file => "LICENSE" }
   s.author                = { "kishikawa katsumi" => "kishikawakatsumi@mac.com" }
-  s.source                = { :git => "https://github.com/kishikawakatsumi/UICKeyChainStore.git", :tag => "v#{s.version}" }
+  s.source                = { :git => "https://github.com/sxua/UICKeyChainStore.git", :tag => "watchos-2" }
   s.social_media_url      = "https://twitter.com/k_katsumi"
 
   s.ios.deployment_target = "4.3"
   s.osx.deployment_target = "10.7"
+  s.watchos.deployment_target = "2.0"
   s.requires_arc          = true
 
   s.source_files          = "Lib/UICKeyChainStore/*.{h,m}"
